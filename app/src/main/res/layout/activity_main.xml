@@ -4,12 +4,13 @@
     android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:background="@drawable/background11">
+    android:background="@drawable/background"
+    >
 
 
 
 
-    <TextView
+    <com.google.android.material.textview.MaterialTextView
         android:id="@+id/info_textview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -22,7 +23,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/seven_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -32,7 +33,7 @@
             android:textSize="20sp"
             />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/eight_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -42,7 +43,7 @@
             android:textSize="20sp"
             />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/nine_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -52,7 +53,7 @@
             android:textSize="20sp"
             />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/div_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -69,7 +70,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/four_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -79,7 +80,7 @@
             android:textSize="20sp"
             />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/five_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -89,7 +90,7 @@
             android:textSize="20sp"
             />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/six_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -99,7 +100,7 @@
             android:textSize="20sp"
             />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/mul_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -116,7 +117,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/one_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -126,7 +127,7 @@
             android:textSize="20sp"
             />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/two_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -136,7 +137,7 @@
             android:textSize="20sp"
             />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/trio_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -145,7 +146,7 @@
             android:text="3"
             android:textSize="20sp"
             />
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/minus_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -163,7 +164,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/clear_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -172,7 +173,7 @@
             android:text="С"
             android:textSize="20sp" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/nulla_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -181,7 +182,7 @@
             android:text="0"
             android:textSize="20sp" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/dot_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -190,7 +191,7 @@
             android:text="."
             android:textSize="20sp" />
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/add_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -206,7 +207,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <Button
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/equal_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
