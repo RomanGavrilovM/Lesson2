@@ -7,11 +7,15 @@
     android:background="@drawable/background11">
 
 
+
+
     <TextView
         android:id="@+id/info_textview"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="40sp" />
+        android:gravity="right"
+        android:textSize="40sp"
+        android:textColor="#FF00"/>
 
     <LinearLayout
         android:layout_width="match_parent"
