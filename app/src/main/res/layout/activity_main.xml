@@ -1,22 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@drawable/background"
-    >
-
-
+    android:orientation="vertical">
 
 
     <com.google.android.material.textview.MaterialTextView
         android:id="@+id/info_textview"
+        style="@style/MyThemeCalculatorInfo"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:gravity="right"
-        android:textSize="@dimen/text_size_40sp"
-        android:textColor="@color/red"/>
+        android:layout_height="wrap_content" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -25,43 +20,31 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/seven_button"
+            style="@style/MyThemeCalculator"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="@dimen/weight_button_01"
-            android:layout_margin="@dimen/margin_button_3dp"
-            android:text="@string/seven_button"
-            android:textSize="@dimen/text_size_20sp"
-            />
+            android:text="@string/seven_button" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/eight_button"
+            style="@style/MyThemeCalculator"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="@dimen/weight_button_01"
-            android:layout_margin="@dimen/margin_button_3dp"
-            android:text="@string/eight_button"
-            android:textSize="@dimen/text_size_20sp"
-            />
+            android:text="@string/eight_button" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/nine_button"
+            style="@style/MyThemeCalculator"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="@dimen/weight_button_01"
-            android:layout_margin="@dimen/margin_button_3dp"
-            android:text="@string/nine_button"
-            android:textSize="@dimen/text_size_20sp"
-            />
+            android:text="@string/nine_button" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/div_button"
+            style="@style/MyThemeCalculator"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="@dimen/weight_button_01"
-            android:layout_margin="@dimen/margin_button_3dp"
-            android:text="@string/divide_button"
-            android:textSize="@dimen/text_size_20sp"
-            />
+            android:text="@string/divide_button" />
 
     </LinearLayout>
 
@@ -72,43 +55,31 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/four_button"
+            style="@style/MyThemeCalculator"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="@dimen/weight_button_01"
-            android:layout_margin="@dimen/margin_button_3dp"
-            android:text="@string/four_button"
-            android:textSize="@dimen/text_size_20sp"
-            />
+            android:text="@string/four_button" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/five_button"
+            style="@style/MyThemeCalculator"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="@dimen/weight_button_01"
-            android:layout_margin="@dimen/margin_button_3dp"
-            android:text="@string/five_button"
-            android:textSize="@dimen/text_size_20sp"
-            />
+            android:text="@string/five_button" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/six_button"
+            style="@style/MyThemeCalculator"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="@dimen/weight_button_01"
-            android:layout_margin="@dimen/margin_button_3dp"
-            android:text="@string/six_button"
-            android:textSize="@dimen/text_size_20sp"
-            />
+            android:text="@string/six_button" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/mul_button"
+            style="@style/MyThemeCalculator"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="@dimen/weight_button_01"
-            android:layout_margin="@dimen/margin_button_3dp"
-            android:text="@string/multiply_button"
-            android:textSize="@dimen/text_size_20sp"
-            />
+            android:text="@string/multiply_button" />
 
     </LinearLayout>
 
@@ -119,42 +90,31 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/one_button"
+            style="@style/MyThemeCalculator"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="@dimen/weight_button_01"
-            android:layout_margin="@dimen/margin_button_3dp"
-            android:text="@string/one_button"
-            android:textSize="@dimen/text_size_20sp"
-            />
+            android:text="@string/one_button" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/two_button"
+            style="@style/MyThemeCalculator"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="@dimen/weight_button_01"
-            android:layout_margin="@dimen/margin_button_3dp"
-            android:text="@string/two_button"
-            android:textSize="@dimen/text_size_20sp"
-            />
+            android:text="@string/two_button" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/trio_button"
+            style="@style/MyThemeCalculator"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="@dimen/weight_button_01"
-            android:layout_margin="@dimen/margin_button_3dp"
-            android:text="@string/three_button"
-            android:textSize="@dimen/text_size_20sp"
-            />
+            android:text="@string/three_button" />
+
         <com.google.android.material.button.MaterialButton
             android:id="@+id/minus_button"
+            style="@style/MyThemeCalculator"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="@dimen/weight_button_01"
-            android:layout_margin="@dimen/margin_button_3dp"
-            android:text="@string/minus_button"
-            android:textSize="@dimen/text_size_20sp"
-            />
+            android:text="@string/minus_button" />
 
 
     </LinearLayout>
@@ -166,40 +126,31 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/clear_button"
+            style="@style/MyThemeCalculatorCol"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="@dimen/weight_button_01"
-            android:layout_margin="@dimen/margin_button_3dp"
-            android:textColor="@color/red"
-            android:text="@string/button_clear"
-            android:textSize="@dimen/text_size_20sp" />
+            android:text="@string/button_clear" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/nulla_button"
+            style="@style/MyThemeCalculator"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="@dimen/weight_button_01"
-            android:layout_margin="@dimen/margin_button_3dp"
-            android:text="@string/null_button"
-            android:textSize="@dimen/text_size_20sp" />
+            android:text="@string/null_button" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/dot_button"
+            style="@style/MyThemeCalculator"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="@dimen/weight_button_01"
-            android:layout_margin="@dimen/margin_button_3dp"
-            android:text="@string/dot_button"
-            android:textSize="@dimen/text_size_20sp" />
+            android:text="@string/dot_button" />
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/add_button"
+            style="@style/MyThemeCalculator"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin_button_3dp"
-            android:layout_weight="@dimen/weight_button_01"
-            android:text="@string/add_button"
-            android:textSize="@dimen/text_size_20sp" />
+            android:text="@string/add_button" />
 
     </LinearLayout>
 
@@ -210,18 +161,12 @@
 
         <com.google.android.material.button.MaterialButton
             android:id="@+id/equal_button"
+            style="@style/MyThemeCalculator"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="@dimen/weight_button_01"
-            android:layout_margin="@dimen/margin_button_3dp"
-            android:text="@string/equals_button"
-            android:textSize="@dimen/text_size_20sp" />
+            android:text="@string/equals_button" />
 
     </LinearLayout>
-
-
-
-
 
 
 </LinearLayout>
