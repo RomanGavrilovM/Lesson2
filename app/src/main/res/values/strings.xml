@@ -1,3 +1,51 @@
 <resources>
     <string name="app_name">Lesson2</string>
+
+    <string name="seven_button">7</string>
+    <string name="eight_button">8</string>
+    <string name="nine_button">9</string>
+    <string name="divide_button">/</string>
+    <string name="four_button">4</string>
+    <string name="five_button">5</string>
+    <string name="six_button">6</string>
+    <string name="multiply_button">*</string>
+    <string name="three_button">3</string>
+    <string name="two_button">2</string>
+    <string name="one_button">1</string>
+    <string name="minus_button">-</string>
+    <string name="button_clear">C</string>
+    <string name="null_button">0</string>
+    <string name="dot_button">.</string>
+    <string name="add_button">+</string>
+    <string name="equals_button">=</string>
+
+    <style name="MyThemeCalculator">
+        <item name="android:layout_margin">@dimen/margin_button</item>
+        <item name="android:layout_gravity">center_horizontal|center_vertical</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:textSize">@dimen/text_size_20sp</item>
+        <item name="cornerRadius">15dp</item>
+        <item name="android:layout_weight">@dimen/weight_button_01</item>
+    </style>
+
+    <style name="MyThemeCalculatorCol">
+        <item name="android:layout_margin">@dimen/margin_button</item>
+        <item name="android:layout_gravity">center_horizontal|center_vertical</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:textSize">@dimen/text_size_20sp</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="android:layout_weight">@dimen/weight_button_01</item>
+    </style>
+
+    <style name="MyThemeCalculatorInfo">
+
+        <item name="android:gravity">right</item>
+        <item name="android:textSize">@dimen/text_size_40sp</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="cornerRadius">10dp</item>
+
+    </style>
+
+
 </resources>

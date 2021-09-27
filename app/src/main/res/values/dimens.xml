@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_20sp">20sp</dimen>
+    <dimen name="text_size_40sp">40sp</dimen>
+    <dimen name="margin_button_3dp">3dp</dimen>
+    <dimen name="weight_button_01">1</dimen>
+
+
+    <dimen name="margin_button">@dimen/margin_button_3dp</dimen>
+
+    
+
+
+
+
+
+
+        
+</resources>
