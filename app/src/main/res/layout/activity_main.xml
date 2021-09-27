@@ -4,7 +4,8 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:background="@drawable/background"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    >
 
 
     <com.google.android.material.textview.MaterialTextView
@@ -167,6 +168,9 @@
             android:text="@string/equals_button" />
 
     </LinearLayout>
+
+    
+
 
 
 </LinearLayout>
