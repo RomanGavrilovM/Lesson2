@@ -103,7 +103,7 @@ public class buttons {
 
     public static boolean buttonSix() {
         if (stringInputTextView.length() <= 7 || (!symbolOperation.isEmpty() && stringInputTextView.isEmpty())) {
-            stringInputTextView = stringInputTextView.concat("5");
+            stringInputTextView = stringInputTextView.concat("6");
             return true;
         }
         return false;
