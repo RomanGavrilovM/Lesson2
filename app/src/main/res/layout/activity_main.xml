@@ -1,18 +1,185 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    >
 
-    <TextView
-        android:layout_width="wrap_content"
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/info_textview"
+        style="@style/MyThemeCalculatorInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:orientation="horizontal">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/seven_button"
+            style="@style/MyThemeCalculator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/seven_button" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/eight_button"
+            style="@style/MyThemeCalculator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/eight_button" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/nine_button"
+            style="@style/MyThemeCalculator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nine_button" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/div_button"
+            style="@style/MyThemeCalculator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/divide_button" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/four_button"
+            style="@style/MyThemeCalculator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/four_button" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/five_button"
+            style="@style/MyThemeCalculator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/five_button" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/six_button"
+            style="@style/MyThemeCalculator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/six_button" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/mul_button"
+            style="@style/MyThemeCalculator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/multiply_button" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/one_button"
+            style="@style/MyThemeCalculator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/one_button" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/two_button"
+            style="@style/MyThemeCalculator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/two_button" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/trio_button"
+            style="@style/MyThemeCalculator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/three_button" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/minus_button"
+            style="@style/MyThemeCalculator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/minus_button" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/clear_button"
+            style="@style/MyThemeCalculatorCol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_clear" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/nulla_button"
+            style="@style/MyThemeCalculator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/null_button" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/dot_button"
+            style="@style/MyThemeCalculator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dot_button" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/add_button"
+            style="@style/MyThemeCalculator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_button" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/equal_button"
+            style="@style/MyThemeCalculatorEquals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/equals_button" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/choice_theme"
+            style="@style/MyThemeCalculatorMein"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choice_themes_button"
+
+            />
+
+    </LinearLayout>
+
+    
+
+
+
+</LinearLayout>
