@@ -4,7 +4,9 @@ import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Button;
+import android.content.Intent;
 import android.widget.TextView;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -14,6 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         TextView inputTextView = findViewById(R.id.info_textview);
+
 
         if (savedInstanceState != null && savedInstanceState.containsKey("stringInputTextView_key")
                 && savedInstanceState.containsKey("symbolOperation_key") && savedInstanceState.containsKey("valueFirst_key")
@@ -138,6 +141,13 @@ public class MainActivity extends AppCompatActivity {
             buttons.clearAllCount();
         });
 
+        Button choiceTheme = findViewById(R.id.choice_theme);
+        choiceTheme.setOnClickListener(view -> {
+            Intent intent = new Intent(MainActivity.this, ChoiceTheme.class);
+            startActivity(intent);
+        });
+
+
 
     }
 
@@ -150,5 +160,12 @@ public class MainActivity extends AppCompatActivity {
         outState.putDouble("valueSecond_key", buttons.valueSecond);
         outState.putDouble("temp_key", buttons.temp);
     }
+
+
+
+
+
+
+
 
 }

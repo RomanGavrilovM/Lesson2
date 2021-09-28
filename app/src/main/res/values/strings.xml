@@ -18,6 +18,13 @@
     <string name="dot_button">.</string>
     <string name="add_button">+</string>
     <string name="equals_button">=</string>
+    <string name="choice_themes_button">Меню</string>
+    <string name="black_theme_button">Тёмная тема</string>
+    <string name="white_theme_button">Светлая тема</string>
+
+    <string name="theme_text_view_1">Light theme</string>
+    <string name="theme_text_view_2">Dark theme</string>
+    <string name="main_setting">Setting</string>
 
     <style name="MyThemeCalculator">
         <item name="android:layout_margin">@dimen/margin_button</item>
@@ -38,6 +45,15 @@
         <item name="android:layout_weight">@dimen/weight_button_01</item>
     </style>
 
+    <style name="MyThemeCalculatorEquals">
+        <item name="android:layout_margin">@dimen/margin_button</item>
+        <item name="android:layout_gravity">center_horizontal|center_vertical</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:textSize">@dimen/text_size_20sp</item>
+        <item name="cornerRadius">15dp</item>
+        <item name="android:layout_weight">@dimen/weight_button_03</item>
+    </style>
+
     <style name="MyThemeCalculatorInfo">
 
         <item name="android:gravity">right</item>
@@ -45,6 +61,16 @@
         <item name="android:textColor">@color/red</item>
         <item name="cornerRadius">10dp</item>
 
+    </style>
+
+    <style name="MyThemeCalculatorMein">
+        <item name="android:layout_margin">@dimen/margin_button</item>
+        <item name="android:layout_gravity">center_horizontal|center_vertical</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:textSize">@dimen/text_size_15sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="cornerRadius">10dp</item>
+        <item name="android:layout_weight">@dimen/weight_button_01</item>
     </style>
 
 </resources>
